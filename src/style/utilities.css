@@ -1,0 +1,17 @@
+@layer utilities {
+    .signin-btn {
+        @apply px-[3.2812rem] py-[0.5rem] rounded-full bg-white uppercase font-interBold text-black;
+    }
+
+    .register-btn {
+        @apply !bg-tealGreen signin-btn;
+    }
+
+    .main-button-green {
+        @apply text-white font-interBold  text-center bg-tealGreen px-[1.125rem] py-[0.8125rem] rounded-[0.9375rem] uppercase;
+    }
+
+    .service-background {
+        
+    }
+}
